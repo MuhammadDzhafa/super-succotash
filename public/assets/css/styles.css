@@ -1,0 +1,299 @@
+/* section 9*/
+/* :root {
+    --Spacespace-12: 12px;
+    --Spacespace-16: 16px;
+    --Spacespace-8: 8px;
+    --Radiusrad-9999: 50px; 
+    --Grey-100: #F2F3F3;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+.hero {
+    width: 100%; 
+    max-width: 1440px; 
+    height: 600px; 
+    margin: 0 auto; 
+    padding: 0 0 0 120px; 
+    background: radial-gradient(104.31% 150.2% at 0% 22.79%, 
+                                rgba(100, 52, 147, 0.76) 23.63%, 
+                                rgba(74, 109, 203, 0.8) 70.69%, 
+                                rgba(100, 210, 247, 0.8) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1; 
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 8%;
+    padding-right: 5%;
+    margin-left: -20px;
+}
+
+
+.title {
+    width: 660px;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: -20px; 
+}
+
+.subtitle {
+    width: 660px;
+    height: auto; 
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: -20px; 
+}
+
+
+.contact-button {
+    background-color: var(--Grey-100);
+    color: #45494A;
+    border: none;
+    width: 146px;
+    height: 47px;
+    padding: var(--Spacespace-12) var(--Spacespace-16);
+    border-radius: var(--Radiusrad-9999);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--Spacespace-8);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.2px;
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: -20px; 
+}
+
+.contact-button:hover {
+    background-color: #e0e0e0; 
+}
+
+.contact-label {
+    width: 86px;
+    height: 23px;
+    gap: 0px;
+    opacity: 1; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+    font-weight: 500; 
+    line-height: 23.2px; 
+    text-align: center; 
+    background: var(--Grey-800, #45494A); 
+    color: white; 
+}
+
+.image-wrapper {
+    flex: 1;
+    width: 660px;
+    height: 600px;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+}
+
+.image-content {
+    flex: 1;
+    width: 660px;
+    height: 600px;
+    background: url("/assets/img/christopher-gower-vjMgqUkS8q8-unsplash.png") no-repeat center center;
+    background-size: cover;
+    clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+    filter: none;
+    border-top-left-radius: 50px; 
+}
+
+@media (max-width: 768px) {
+    .hero {
+        width: 100%; 
+        padding: 0;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .text-content {
+        padding: 5%;
+    }
+
+    .image-content {
+        width: 100%;
+        height: 100%;
+        background: url("/assets/img/christopher-gower-vjMgqUkS8q8-unsplash.png") no-repeat center center;
+        background-size: cover;
+        transform: skew(-10deg); 
+        transform-origin: top left;
+        margin-left: -10%; 
+} */
+
+/* section 9*/
+/* section 2*/
+
+/* Gaya untuk .huro-card */
+.huro-cardd {
+    width: 380px;
+    height: 304px;
+    padding: 20px 0px 0px 0px;
+    gap: 15px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DEDEDE; /* Sesuaikan dengan kebutuhan */
+    opacity: 1; /* Pastikan border terlihat */
+}
+
+/* Gaya untuk efek hover pada .huro-card */
+.huro-cardd:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk .card-content */
+.card-contentt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Gaya untuk ikon */
+.icon.is-large {
+    width: 41.67px;
+    height: 41.67px;
+    position: relative; /* Dibutuhkan untuk properti top dan left */
+    top: 4.17px;
+    left: 4.17px;
+    gap: 0px;
+    opacity: 1; /* Mengubah dari 0 menjadi 1 untuk visibilitas */
+    color: #6C88D5; /* Warna biru untuk ikon */
+}
+
+/* Gaya umum untuk teks .titlee dan .content */
+.titlee, .contentt {
+    color: #3C476C; /* Warna teks default */
+}
+
+/* Gaya khusus untuk .titlee.has-text-centered.mb-6 */
+.titlee.has-text-centered.mb-6 {
+    color: #283252; /* Warna khusus untuk <h1> */
+}
+
+/* Gaya untuk h3.titlee */
+h3.titlee {
+    width: 100%; /* Mengatur lebar 100% untuk elemen responsif */
+    max-width: 1200px; /* Membatasi lebar maksimum */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: center;
+    color: #283252; /* Warna teks sesuai dengan background */
+    padding: 0; /* Mengatur padding jika diperlukan */
+    margin: 0 auto; /* Memusatkan elemen */
+}
+
+/* Gaya untuk .content */
+.contentt {
+    width: 300px;
+    height: 104px;
+    gap: 0px;
+    opacity: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* Gaya untuk .titlee */
+.titlee {
+    width: 300px;
+    height: 34px;
+    gap: 0px;
+    opacity: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33.8px;
+    text-align: center;
+}
+
+/* Media query untuk layar dengan lebar maksimal 768px */
+@media (max-width: 768px) {
+    .titlee {
+        font-size: 22px;
+        line-height: 28px;
+        width: auto; /* Sesuaikan lebar otomatis */
+    }
+
+    .contentt {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto; /* Sesuaikan lebar otomatis */
+    }
+
+    .huro-cardd {
+        width: 100%; /* Menyesuaikan lebar untuk layar kecil */
+        max-width: 100%; /* Membatasi lebar maksimum untuk layar kecil */
+        height: auto; /* Tinggi otomatis untuk layar kecil */
+        padding: 15px; /* Kurangi padding untuk layar kecil */
+        border-radius: 8px; /* Menyesuaikan border-radius */
+        border-width: 1px; /* Pastikan border tetap terlihat */
+    }
+
+    .icon.is-large {
+        width: 40px; /* Sesuaikan ukuran ikon */
+        height: 40px; /* Sesuaikan ukuran ikon */
+    }
+
+    .columns.is-centered {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Pusatkan kolom untuk ponsel */
+    }
+
+    .column.is-one-third {
+        width: 100%; /* Buat kolom 100% lebar untuk layar kecil */
+        margin-bottom: 15px; /* Jarak antara kolom */
+    }
+}
+
+
+
+/* section 2 */
